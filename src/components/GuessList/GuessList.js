@@ -6,7 +6,7 @@ function GuessList({ guessList }) {
 			<div className="guess-results">
 				{guessList.map((guess) => (
 					<p className="guess" key={guess.key}>
-						{guess.guess}
+						{guess.value}
 					</p>
 				))}
 			</div>
